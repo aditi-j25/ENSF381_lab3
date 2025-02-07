@@ -21,20 +21,56 @@
 .NavigationBar 
 	{
 	display:flex;
-	flex-direction:rowspan;		
+	flex-direction:row;		
     background-color: #333;
-    padding: 10px;
-	gap: 10px;
-    justify-content: space-evenly;
+    padding: 30px;
+	gap: 20px;
+    
 }
+.faculty{
+	position:relative;	
+}
+
 .faculty a{
-    margin: 10px 1px; /*will have that margin */ /*2 values: top&bottom and right&left*/
+    margin: 1px 1px; /*will have that margin */ /*2 values: top&bottom and right&left*/
 	color: white; 
 	text-decoration: none;
-	padding: 20px;
+	padding: 10px;
  }
  
  /*MOUSE HOVER EFFECT*/
  .faculty a:hover{
-	 
+	background-color: #bdbbbb; 
+	border-radius: 5px;
+ }
+ 
+ .dropdown {
+	border:none;
+	cursor:pointer;
+	background-color: #333;
+}
+ .schulichMenu{
+	display:none;
+	padding:0px;
+	width: 200px;
+	position: absolute;
+	background-color:white;
+	flex-direction: column;
+	border: none;
+ }
+ .schulichMenu a{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	border-bottom-color: black;
+	color: black;
+	margin: 0 ;
+	border: 1px solid #bdbbbb;
+ }
+ .schulichMenu a:hover{
+	 background-color: white;
+	 color: black;	
+ }
+ .faculty:hover .schulichMenu{
+	 display: block;
  }
