@@ -1,0 +1,40 @@
+.Container{  
+    display: flex;
+    flex-direction: row;
+}
+ 
+.item {
+    flex: 1;
+    padding: 20px;
+    margin: 5px;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    text-align: center;
+}
+.item img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.NavigationBar 
+	{
+	display:flex;
+	flex-direction:rowspan;		
+    background-color: #333;
+    padding: 10px;
+	gap: 10px;
+    justify-content: space-evenly;
+}
+.faculty a{
+    margin: 10px 1px; /*will have that margin */ /*2 values: top&bottom and right&left*/
+	color: white; 
+	text-decoration: none;
+	padding: 20px;
+ }
+ 
+ /*MOUSE HOVER EFFECT*/
+ .faculty a:hover{
+	 
+ }
