@@ -1,0 +1,52 @@
+/* Styling for Exercise 1 */
+
+body {
+
+    margin: 0px; 
+    padding: 0px;
+
+}
+
+.table2 tr {
+    padding-bottom: 20px; 
+    display: block;
+}
+
+
+.box1 {
+    text-align: center;
+    background-color: darkred ;
+    
+}
+
+.box2 {
+    text-align: center;
+    background-color: deeppink;
+}
+
+.box3 {
+    text-align: center;
+    background-color: brown;
+}
+.box_text_colour  {
+    color: white;
+    padding: 20px;
+    margin: 0; 
+}
+
+.td_image_width {
+    display: block;
+    width: 570px;
+
+}
+
+.size {
+    width: 570px;
+    height: 400px;
+}
+
+p {
+    font-family: Arial; 
+    font-size: 16px;
+    color: #3d3d3d;
+}
